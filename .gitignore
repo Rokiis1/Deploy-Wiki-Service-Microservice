@@ -1,0 +1,34 @@
+# Compiled python files
+*.pyc
+
+# Python cache files
+__pycache__/
+
+# Packages
+*.venv
+*.egg
+*.egg-info
+*.whl
+*.tar.gz
+
+# Distutils files
+dist/
+
+# PyInstaller
+*.spec
+
+# documentation
+docs/_build/
+
+# Environments
+.env
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+htmlcov/
+.pytest_cache/
