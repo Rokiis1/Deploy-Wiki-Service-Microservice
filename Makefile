@@ -13,6 +13,10 @@ test:
 	python -m pytest -vv --cov=lib --cov=main test_*.py
 build:
 	#build container
+	docker build -t rokiis1/deploy-fastapi .
+run:
+	#run docker
+	#docker run -p 127.0.0.1:8080:8080 38da9bfd1849
 deploy:
 	#deploy
 all: install lint test deploy
