@@ -26,4 +26,7 @@ deploy:
 		docker tag fastapi-wiki:latest 184489571052.dkr.ecr.eu-west-2.amazonaws.com/fastapi-wiki:latest
 		docker push 184489571052.dkr.ecr.eu-west-2.amazonaws.com/fastapi-wiki:latest
 
+debug:
+		echo $?
+
 all: install post-install lint test deploy
